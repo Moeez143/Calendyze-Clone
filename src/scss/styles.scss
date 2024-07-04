@@ -1,0 +1,372 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+// Define Mulish font
+@font-face {
+  font-family: "Mulish";
+  src: url("../assets/fonts/Mulish-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Mulish" !important;
+  background-color: #fafafa !important;
+}
+
+.row-padding-fixed {
+  padding: 0px 12px;
+}
+
+.row-margin-fixed {
+  margin: 0px 12px;
+}
+
+//navbar
+.navbar-brand img {
+  width: 245px;
+}
+
+.started-btn img {
+  width: 20px;
+}
+
+.nav-btn:active {
+  background-color: transparent;
+}
+
+.navbar-nav li a {
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar-nav li a:active {
+  font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+  font-weight: 600;
+}
+
+.btn-login:active {
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  font-weight: 600;
+}
+
+// hero section
+.hero-section {
+  background: url("../assets/images/background\ hero.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 70%;
+}
+
+.hero-text {
+  color: #546e7a;
+}
+
+.hero-customer img {
+  width: 150px;
+}
+
+.rating-text {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+.rating-div {
+  margin-top: -5px;
+}
+
+.hero-bg-img img {
+  width: 85%;
+}
+
+// success number
+.success-number-tag {
+  font-size: 14px;
+}
+
+.success-number-tag img {
+  width: 14px;
+  margin-top: -5px;
+}
+
+//progress bar
+.slider {
+  width: 90%;
+  margin: auto;
+}
+
+.slider input[type="range"] {
+  width: 100%;
+  height: 2px;
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  appearance: none;
+  background: transparent;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.slider-labels span {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.slider-labels span:before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: 10px;
+  background-color: #1565c0;
+  margin-top: -32px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.slider-labels span:nth-child(1):before {
+  margin-top: -32px;
+  margin-left: 0px;
+}
+
+.slider-labels span:nth-child(9):before {
+  margin-top: -32px;
+  margin-left: 28px;
+}
+
+.slider-labels span:nth-child(5):before {
+  margin-left: 13px;
+}
+
+.slider-labels span:nth-child(6):before {
+  margin-left: 15px;
+}
+
+.slider-labels span:nth-child(7):before {
+  margin-left: 17px;
+}
+
+.slider-labels span:nth-child(8):before {
+  margin-left: 19px;
+}
+
+.amount-div {
+  background-color: #edf3f9;
+}
+
+.amount-div-left {
+  border-right: 1px solid rgba(18, 18, 23, 0.27);
+}
+
+// calendyze work
+.calendyze-work-tag {
+  font-size: 14px;
+}
+
+.calendyze-work-tag img {
+  width: 14px;
+  margin-top: -5px;
+}
+
+.line-bar:after {
+  content: "";
+  width: 4px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 8px;
+  background-color: #1565c0;
+  border-radius: 15px;
+}
+
+.number-scroll {
+  width: 50px;
+  height: 50px;
+}
+
+.work-count {
+  max-height: 430px;
+}
+
+.work-count::-webkit-scrollbar {
+  display: none;
+}
+
+//calendyze help
+.calendyze-help-tag span {
+  font-size: 14px;
+}
+
+.calendyze-help-tag span img {
+  width: 14px;
+  margin-top: -5px;
+}
+
+//Calendyze offer
+.offer-accordian-icon {
+  width: 25px;
+}
+
+.accordion-custom-width {
+  width: 95%;
+}
+
+.accordion-border-padding {
+  border-bottom: 1px solid #c3c1c1 !important;
+}
+
+.offer-accordion-button::after {
+  background-image: url("../assets/icons/Arrow Down.svg") !important;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.offer-accordion-button:not(.collapsed)::after {
+  background-image: url("../assets/icons/Arrow Up.svg") !important;
+  transform: rotate(0deg) !important;
+}
+
+//Protect section
+
+//meeting cost
+.meeting-bg-img {
+  background: url("../assets/images/meeting-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+//testimonials
+.card-footer img {
+  width: 40px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+}
+
+.testimonial-person-detail {
+  font-size: 14px;
+}
+
+//FAQ
+.faq-text-left {
+  background: linear-gradient(150deg, #4260cd 0%, #7b6bd7 40%, #b876e1 80%);
+}
+
+.faq-custom-border {
+  border: 2px solid !important;
+  border-image: linear-gradient(to bottom, #6650e7, #b079fd) 1 !important;
+  border-radius: 20px !important;
+}
+
+.custom-focus:focus {
+  box-shadow: none !important;
+}
+
+.faq-accordion:not(.collapsed) {
+  box-shadow: none !important;
+}
+
+.faq-accordion-body-text {
+  color: #747474;
+  font-size: 14px;
+}
+
+//footer
+.footer-icons img {
+  width: 35px;
+}
+
+@media (max-width: 1024px) {
+  .slider {
+    width: 95%;
+  }
+  //calendyze work
+  .line-bar:after {
+    height: 240px;
+  }
+  .work-count {
+    max-height: 290px;
+  }
+}
+
+@media (max-width: 770px) {
+  .row-padding-fixed {
+    padding: 0px 0px;
+  }
+  .row-margin-fixed {
+    margin: 0px 0px;
+  }
+  // navbar
+  .navbar-brand img {
+    width: 200px;
+  }
+  //hero-bg-image
+  .hero-bg-img img {
+    width: 100%;
+  }
+  //success numbers
+  .success-number-head h1 {
+    font-size: 28px;
+  }
+  //calendyze work
+  .line-bar:after {
+    height: 155px;
+  }
+  .work-count {
+    max-height: 210px;
+  }
+  //accordion
+  .accordion-custom-width {
+    width: 100%;
+  }
+  //meeting setion
+  .meeting-bg-img {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  // navbar
+  .navbar-brand img {
+    width: 150px;
+  }
+  //progress bar
+  .slider-labels span {
+    font-size: 12px;
+    color: #7a7a7a;
+  }
+  //success numbers
+  .success-number-head h1 {
+    font-size: 22px;
+  }
+  .amount-div-left {
+    border-right: none;
+  }
+  //calendyze work
+  .line-bar:after {
+    height: 170px;
+  }
+  .work-count {
+    max-height: 280px;
+  }
+  //meeting cost
+  .meeting-bg-img {
+    border-radius: 0px;
+  }
+}
